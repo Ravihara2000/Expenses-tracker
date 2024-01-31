@@ -14,7 +14,7 @@ class _ExpencesState extends State<Expences> {
       appBar: AppBar(
         title: const Text("Expences Master"),
         backgroundColor: const Color.fromARGB(255, 85, 69, 154),
-        elevation: 0,
+        elevation: 0,//shadow under appbar hide
         actions: [
           
           Container(
@@ -23,7 +23,10 @@ class _ExpencesState extends State<Expences> {
                 onPressed: () {},
                icon: const Icon(
                 Icons.add,
-                color: Color.fromARGB(255, 237, 234, 234),)))
+                color: Color.fromARGB(255, 237, 234, 234),
+                )
+                )
+                )
         ],
       ),
     );
